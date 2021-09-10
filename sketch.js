@@ -65,13 +65,6 @@ function setInitials() {
 	upperLimit = u + (u - l) * 2;
 }
 
-/**
- *
- * @param {String} text
- * @param {Number} x
- * @param {Number} y
- * @param {String} color
- */
 function writeText(content, x, y, scaleFactor, hasBackground, isTitle) {
 	push();
 	let size = 10;
